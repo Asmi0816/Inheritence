@@ -17,7 +17,8 @@ public class ThirdThing extends SubThing implements OtherInterface
 	}
 	public void doesNada()
 	{
-		
+		System.out.println("777777777777777 sunday!");
+		super.doesNada();
 	}
 	public void doesOtNada()
 	{

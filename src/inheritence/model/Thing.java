@@ -13,4 +13,8 @@ public abstract class Thing implements DoesStuff
 	{
 		this.words = words;
 	}
+	public void doesNada()
+	{
+		System.out.println("Grabbage code is my favorite code it the code that gets ready for sunday!" + words);
+	}
 }
